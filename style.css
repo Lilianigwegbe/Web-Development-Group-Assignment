@@ -354,7 +354,38 @@
   form button:hover {
     background: #0056b3;
   }
-  
+
+ /* --- Brands Section --- */
+    .brands-section {
+    background-color: #408b66; /* Light gray background */
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+
+    .brand-logo {
+    flex-basis: calc(50% - 2rem); /* Two logos per row on smaller screens */
+    text-align: center;
+    margin-bottom: 1rem;
+    }
+
+
+    .brand-logo img {
+    max-height: 40px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+    }
+
+
+    .brand-logo img:hover {
+    opacity: 1;
+    }
+
+
+
   /* Footer */
   .footer {
     background: #333;
