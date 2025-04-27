@@ -212,6 +212,132 @@
     font-size: 22px;
   }
 
+/* --- Skills Info Section --- */
+    /* Skills Section */
+    .skills-section {
+    padding: 2rem;
+    text-align: center;
+    }
+
+
+    .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+    }
+
+
+    .skill-item img {
+    max-width: 100%;
+    border-radius: 0.25rem;
+    }
+    
+    .skills-info-section {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+    align-items: flex-start;
+    flex-direction: column; /* Stack on smaller screens */
+    }
+
+
+    .left-column, .right-column {
+    flex: 1;
+    margin-bottom: 1.5rem; /* Add spacing between columns on smaller screens */
+    }
+
+
+    .left-column img {
+    max-width: 100%;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    }
+
+
+    .progress-bars {
+    margin-top: 1.5rem;
+    }
+
+
+    .progress-item {
+    margin-bottom: 1rem;
+    }
+
+
+    .progress-item label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    }
+
+
+    .progress-bar {
+    background-color: #e9ecef; /* Light gray bar */
+    height: 0.75rem;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    }
+
+
+    .progress-fill {
+    background-color: #28a745; /* Green fill */
+    height: 100%;
+    border-radius: 0.25rem;
+    }
+
+
+    /* Dynamically set width using data-progress attribute (JavaScript can enhance this) */
+    .progress-bar[data-progress="85"] .progress-fill { width: 85%; }
+    .progress-bar[data-progress="92"] .progress-fill { width: 92%; }
+    .progress-bar[data-progress="80"] .progress-fill { width: 80%; }
+    .progress-bar[data-progress="95"] .progress-fill { width: 95%; }
+
+
+    .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    }
+
+
+    .service-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    }
+
+
+    .highlight-item {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    }
+
+
+    .highlight-item i {
+    font-size: 2rem;
+    color: #007bff; /* Blue icons */
+    margin-bottom: 0.5rem;
+    }
+
+
+    .highlight-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    }
+
+
+    .right-column img {
+    max-width: 100%;
+    border-radius: 0.25rem;
+
+
+    }
+
+
 /* --- Stats Section --- */
     .stats-section {
     background-color: #e9ecef; /* Light gray background */
