@@ -131,6 +131,42 @@
     max-width: 100%;
     border-radius: 20px;
   }
+
+  /* Biography Section */
+  .biography {
+    padding: 100px 0;
+    background: #f9f9f9;
+  }
+
+  .biography-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* smaller space between image and text */
+  }
+
+  .biography-image {
+    flex: 1;
+  }
+  
+  .biography-text {
+    flex: 2;
+    text-align: left;
+  }
+  .biography-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+
+  .biography-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .biography-text p {
+    margin-bottom: 20px;
+  }
   
   /* Services Section */
   .services {
