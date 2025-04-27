@@ -4,13 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>UI Portfolio - Creative Portfolio Website</title>
-
+<!-- Main stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
   <!-- FontAwesome (for icons) -->
   <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
-
+  <!-- Animation & Counters -->
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/odometer-theme-default.css" />
+  <!-- Lightbox gallery -->
+  <link rel="stylesheet" href="css/lightbox.css" />
   <!-- External CSS -->
   <link rel="stylesheet" href="style.css">
   
@@ -22,6 +28,15 @@
     <div class="container">
       <div class="logo">UI Portfolio</div>
       <nav class="nav">
+          <class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navMenu"
+    >
+      ☰
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ml-auto">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -60,6 +75,13 @@
               <p><strong class="label">From:</strong> <span class="value">London, UK</span></p>
               <p><strong class="label">Email:</strong> <span class="value">jakemartins@mail.com</span></p>
               <p><strong class="label">Phone:</strong> <span class="value">+44 234 567 8901</span></p>
+              <p>
+            <strong>Follow me:</strong>
+            <a href="#">Behance</a> |
+            <a href="#">LinkedIn</a> |
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a>
+              </p>
           </div>
           
           </div>
@@ -91,7 +113,43 @@
       </div>
     </div>
   </section>
-
+            
+<!--SKILLS & COUNTERS -->
+  <section class="py-5">
+    <div class="container">
+      <h2>My Featured Skills</h2>
+      <div class="row mb-4">
+        <div class="col-sm-4">
+          <h6>UI/UX Design</h6>
+        </div>
+        <div class="col-sm-4">
+          <h6>Branding Design</h6>
+        </div>
+        <div class="col-sm-4">
+          <h6>Responsive Web Design</h6>
+        </div>
+      </div>
+      <div class="row text-center counters">
+        <div class="col-sm-3">
+          <div class="odometer" data-count="1500">0</div>
+          <p>Finished Projects</p>
+        </div>
+        <div class="col-sm-3">
+          <div class="odometer" data-count="2500">0</div>
+          <p>Working Hours</p>
+        </div>
+        <div class="col-sm-3">
+          <div class="odometer" data-count="1280">0</div>
+          <p>Online Support</p>
+        </div>
+        <div class="col-sm-3">
+          <div class="odometer" data-count="3020">0</div>
+          <p>Happy Customers</p>
+        </div>
+      </div>
+    </div>
+   </section>
+        
   <!-- Portfolio Section -->
   <section id="portfolio" class="portfolio">
     <div class="container">
@@ -142,12 +200,33 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2025 PLP UI Portfolio. All rights reserved.</p>
+      <p>&copy; 2025 UI Portfolio. All rights reserved.</p>
     </div>
   </footer>
 
   <!-- External JavaScript -->
   <script src="js/script.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/responsiveslides.min.js"></script>
+  <script src="js/odometer.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script>
+    // Initialize WOW.js
+    new WOW().init();
+
+    // Trigger odometer counters on scroll
+    $(window).on("scroll", function () {
+      $(".odometer").each(function () {
+        var count = $(this).data("count");
+        if (!$(this).hasClass("done") && $(window).scrollTop() + $(window).height() > $(this).offset().top) {
+          $(this).addClass("done");
+          this.innerHTML = count;
+        }
+      });
+    });
+  </script>         
 </body>
 </html>
 
