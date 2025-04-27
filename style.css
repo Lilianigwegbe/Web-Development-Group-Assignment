@@ -22,7 +22,6 @@
   /* Header */
   .header {
     background: #fff;
-    background-color: #033838;
     padding: 20px 0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: sticky;
@@ -62,6 +61,7 @@
   /* Hero Section */
   .hero {
     background: #e8f0fe;
+    background-color: #033838;
     padding: 100px 0;
     text-align: center;
   }
