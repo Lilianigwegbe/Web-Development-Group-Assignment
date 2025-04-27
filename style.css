@@ -211,6 +211,35 @@
     margin-bottom: 10px;
     font-size: 22px;
   }
+
+/* --- Stats Section --- */
+    .stats-section {
+    background-color: #e9ecef; /* Light gray background */
+    padding: 1rem ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    }
+
+
+    .stat-item {
+    padding: 0.3rem;
+    flex-basis: calc(20% - 1rem); /* Two items per row on smaller screens */
+    margin-bottom: 1rem;
+    }
+
+
+    .stat-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+
+
+    .stat-label {
+    font-size: 0.9rem;
+    }
+
   
   /* Portfolio Section */
   .portfolio {
