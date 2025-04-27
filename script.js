@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // 2. Image Overlay
   const portfolioItems = document.querySelectorAll('.portfolio-item');
-  workItems.forEach(item => {
+  portfolioItems.forEach(item => {
   item.addEventListener('mouseenter', function() {
   const overlay = document.createElement('div');
   overlay.classList.add('portfolio-overlay');
