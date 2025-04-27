@@ -363,4 +363,7 @@
   .footer p {
     font-size: 14px;
   }
-  
+
+.counters .odometer {
+  font-size: 2rem;
+}
