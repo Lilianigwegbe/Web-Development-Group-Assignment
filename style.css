@@ -83,7 +83,7 @@
 
   .btn {
     display: inline-block;
-    background: #007bff;
+    background: #03743b;
     color: #fff;
     padding: 12px 30px;
     border-radius: 30px;
@@ -94,7 +94,7 @@
   }
   
   .btn:hover {
-    background: #0056b3;
+    background: #068631;
   }
 
 .view-me-button, .my-portfolio-button {
