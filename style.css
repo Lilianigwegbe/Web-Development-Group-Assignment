@@ -61,6 +61,10 @@
   /* Hero Section */
   .hero {
     background: #e8f0fe;
+    background: linear-gradient(rgba(255, 255, 255,0.692), rgba(255, 255, 255, 0.658));
+    background-image: url('images/bannerV.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #033838;
     padding: 100px 0;
     text-align: center;
