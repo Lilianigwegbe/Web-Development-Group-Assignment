@@ -627,3 +627,22 @@
                 letter-spacing: -3px;
             }
         }
+
+/* Large screens (desktops, 992px and up) */
+    @media (min-width: 992px) {
+
+
+    .skills-info-section {
+    flex-direction: row; /* Columns on large screens */
+    }
+
+
+    .stats-section .stat-item {
+    flex-basis: 25%; /* Four items per row */
+    }
+
+
+    .brands-section .brand-logo {
+    flex-basis: calc(25% - 2rem); 
+    }
+    }
