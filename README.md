@@ -26,9 +26,10 @@ This is a  portfolio website built to showcase web design and development work. 
 ## live demo: https://web-development-group-assignment-ghwj-gqnjjsqn9.vercel.app/
 
 Group members
-1.Jane Okumbe
-2.Nercia Motsepe
-3. Samuel Koyo
+- 1.Jane Okumbe
+- 2.Nercia Motsepe
+- 3.Samuel Koyo
+- 4.Lilian Igwegbe
 
 
 
