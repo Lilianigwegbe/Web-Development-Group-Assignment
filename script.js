@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 statNumbers.forEach(number =>{
                     const endValue = parseInt(number.textContent);
                     number.textContent = 0;
-                    animateCount(number, 0, endValue, 2000);
+                    animateCount(number, 0, endValue, 9000);
                 });
                 observer.unobserve(entry.target);
             }
