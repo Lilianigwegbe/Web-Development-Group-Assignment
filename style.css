@@ -628,6 +628,24 @@
             }
         }
 
+/* Medium screens (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991.98px) {
+    .skills-info-section {
+    flex-direction: row; /* Columns on medium screens */
+    }
+
+
+    .stats-section .stat-item {
+    flex-basis: calc(50% - 2rem); /* Two items per row */
+    }
+
+
+    .brands-section .brand-logo {
+    flex-basis: calc(33.33% - 2rem); /* Three logos per row */
+    }
+    }
+
+
 /* Large screens (desktops, 992px and up) */
     @media (min-width: 992px) {
 
@@ -643,6 +661,6 @@
 
 
     .brands-section .brand-logo {
-    flex-basis: calc(25% - 2rem); 
+    flex-basis: calc(20% - 2rem); 
     }
     }
