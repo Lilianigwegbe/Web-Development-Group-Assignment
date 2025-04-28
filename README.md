@@ -23,7 +23,7 @@ This is a  portfolio website built to showcase web design and development work. 
 - FontAwesome Icons
 - animate.css
 - Bootstrap
-## live demo: web-development-group-assignment-ghwj-gqnjjsqn9.vercel.app
+## live demo: https://web-development-group-assignment-ghwj-gqnjjsqn9.vercel.app/
 
 Group members
 1.Jane Okumbe
