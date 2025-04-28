@@ -9,7 +9,7 @@ This is a  portfolio website built to showcase web design and development work. 
 - Smooth scrolling navigation
 - About section with image and bio
 - Services section with icons
-- Skills section with odometer 
+- Skills section  
 - Portfolio section showcasing recent projects
 - Contact form for inquiries
 - Clean and minimal aesthetic
@@ -22,7 +22,6 @@ This is a  portfolio website built to showcase web design and development work. 
 - Google Fonts (Poppins)
 - FontAwesome Icons
 - animate.css
-- Odometer.js
 - Bootstrap
 ## live demo: 
 
