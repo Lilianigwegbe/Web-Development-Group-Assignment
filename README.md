@@ -24,7 +24,7 @@ This is a  portfolio website built to showcase web design and development work. 
 - animate.css
 - Odometer.js
 - Bootstrap
-
+## live demo: https://web-development-group-assignment.vercel.app/
 
 
 
