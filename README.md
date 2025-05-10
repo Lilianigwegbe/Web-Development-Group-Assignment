@@ -2,18 +2,18 @@
 
 ##  Recreating The UI Portfolio Website
 
-This is a group assignment with four collaborators. We built a replica of the UI portfolio website to showcase web design and development work. It is a clean, responsive, and modern website made using HTML, CSS, and JavaScript.
+This is a group assignment with four collaborators. We built a replica of the UI portfolio website to showcase web design and development work. It is a clean, responsive and modern website made using HTML, CSS, and JavaScript.
 
 ##  Features
 
-- Responsive design for all devices.
-- Smooth scrolling navigation.
-- About section with image and bio.
-- Services section with icons.
-- Skills section. 
-- Portfolio section showcasing recent projects.
-- Contact form for inquiries.
-- Clean and minimal aesthetic.
+- Responsive design for all devices
+- Smooth scrolling navigation
+- About section with image and bio
+- Services section with icons
+- Skills section 
+- Portfolio section showcasing recent projects
+- Contact form for inquiries
+- Clean and minimal aesthetic
 
 ## Technologies Used
 
