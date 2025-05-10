@@ -1,4 +1,4 @@
-# Web-Development-Group-Assignment
+# Web Development Group Assignment
 
 ##  Recreating The UI Portfolio Website
 
