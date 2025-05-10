@@ -1,20 +1,21 @@
-# Web-Development-Group-Assignment-
-# 🎨 UI Portfolio - Creative Portfolio Website
+# Web-Development-Group-Assignment
 
-This is a  portfolio website built to showcase web design and development work. It's a clean, responsive, and modern website made using HTML, CSS, and JavaScript.
+##  Recreating The UI Portfolio Website
 
-## 📌 Features
+This is a group assignment with four collaborators. We built a replica of the UI portfolio website to showcase web design and development work. It is a clean, responsive, and modern website made using HTML, CSS, and JavaScript.
 
-- Responsive design for all devices
-- Smooth scrolling navigation
-- About section with image and bio
-- Services section with icons
-- Skills section  
-- Portfolio section showcasing recent projects
-- Contact form for inquiries
-- Clean and minimal aesthetic
+##  Features
 
-## 🛠 Technologies Used
+- Responsive design for all devices.
+- Smooth scrolling navigation.
+- About section with image and bio.
+- Services section with icons.
+- Skills section. 
+- Portfolio section showcasing recent projects.
+- Contact form for inquiries.
+- Clean and minimal aesthetic.
+
+## Technologies Used
 
 - HTML5
 - CSS3
@@ -23,13 +24,14 @@ This is a  portfolio website built to showcase web design and development work. 
 - FontAwesome Icons
 - animate.css
 - Bootstrap
+
 ## live demo: https://web-development-group-assignment-ghwj-gqnjjsqn9.vercel.app/
 
 Group members
-- 1.Jane Okumbe
-- 2.Nercia Motsepe
-- 3.Samuel Koyo
-- 4.Lilian Igwegbe
+- Jane Okumbe
+- Nercia Motsepe
+- Samuel Koyo
+- Lilian Igwegbe
 
 
 
